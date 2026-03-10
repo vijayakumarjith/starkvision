@@ -1,0 +1,4 @@
+[build-system]
+requires = ["pyproject-toml>=0.0.12", "pydantic>=1.10.2", "tomli>=2.1.0; python_version < '3.11'"]
+build-backend = "pyproject_toml.build_system.build_backend"
+backend-path = ["."]
